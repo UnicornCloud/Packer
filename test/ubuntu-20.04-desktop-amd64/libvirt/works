@@ -1,7 +1,0 @@
-# Encapsulate all this in Ansible! both Build & Run
-
-#vagrant box add my/ubuntu-20.04-desktop ubuntu-20.04-desktop-amd64-virtualbox.box
-vagrant box add my/ubuntu-20.04-desktop ubuntu-20.04-desktop-amd64-libvirt.box
-
-vagrant init my/ubuntu-20.04-desktop
-vagrant up --provider=libvirt
